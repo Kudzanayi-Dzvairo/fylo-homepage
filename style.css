@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
 font-family: 'Open Sans', sans-serif;
+height: 200vh;
 /* font-family: 'Raleway', sans-serif; */
 }
 
@@ -30,3 +35,60 @@ ul{
 li{
     text-decoration: none;
 }
+
+/*------Top Content-------*/
+
+.title-container{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title-content, .content-image{
+    width:50%;
+}
+
+.box-center{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 60%;
+}
+
+.title-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-content h1{
+  font-size: 2.2em
+}
+
+
+.title-input{
+    display: flex;
+    height: 20%
+}
+
+.title-input input{
+   width: 50%;
+   height: 60%
+}
+.title-input button{
+   width: 30%;
+   height: 60%;
+   margin-left: 1em;
+   color: white;
+   background-color: hsl(224, 93%, 58%);
+}
+
+.content-image img{
+    width:80%;
+    height: 90%
+}
+
+/*-----Second Section------*
