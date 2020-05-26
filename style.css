@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
+}
+
+/*-----------Header---------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+nav{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+}
